@@ -194,7 +194,7 @@ bool TauMuGammaAlg::finalize() {
 ```
 ---
 下面是 `joboptions_ana_0.out` 的cut flow输出内容：
-```
+```bash
 TauMuGamma_Ana:TauMuGammaAlg.finalize  INFO: TauMuGammaAlg summary:
   All events     : 2000
   Pass basic     : 23
@@ -250,7 +250,7 @@ SNiPER::Context Terminated Successfully
 ![Fig.1 信号样本 E(γμ) vs M(γμ)](plotting/output/EvsM_mugamma_signal.png)
 
 **说明**  
-- 本图由脚本 2D 配置 `EvsM_mugamma`、对信号样本施加 final selection 后绘制，画法为方块大小表示 bin 含量（BOX）。  
+- `EvsM_mugamma`、对信号样本施加 final selection 后绘制，方块大小表示 bin 含量（BOX）。  
 
 
 
@@ -258,7 +258,7 @@ SNiPER::Context Terminated Successfully
 
 ## Fig. 2 — 运动学分布：(a) $p_\mu$，(b) $E_\gamma$，(c) $\cos\theta_{\gamma\mu}$
 
-论文中：(a) 信号 μ 子动量，(b) 信号光子能量，(c) 信号光子与 μ 子夹角余弦；箭头标记事例选择标准；μ 子动量低端由 MUD 接受度引起。
+论文中：(a) 信号 μ 子动量，(b) 信号光子能量，(c) 信号光子与 μ 子夹角余弦
 
 **复现图像：**
 
@@ -290,7 +290,7 @@ SNiPER::Context Terminated Successfully
 
 ## Fig. 4 — $\pi^+\bar\nu_\tau$ 标记模式：(a) $E_{\mathrm{miss}}$，(b) $|\cos\theta_{\mathrm{miss}}|$，(c) $E_{\mathrm{sig}\,\gamma}$，(d) $M^2_{\mathrm{miss}}$
 
-论文中：$\pi^+\bar\nu_\tau$ 标记下，(a)(b)(c) 与双 μ 本底相关，(d) 与双 τ 本底相关。
+
 
 **复现图像：**
 
@@ -298,7 +298,7 @@ SNiPER::Context Terminated Successfully
 |-------------------------|-------------------------------------|----------------------------------|----------------------------|
 | ![pi_Emiss](plotting/output/pi_Emiss.png) | ![pi_absCosMiss](plotting/output/pi_absCosMiss.png) | ![pi_EsigGamma](plotting/output/pi_EsigGamma.png) | ![pi_M2miss](plotting/output/pi_M2miss.png) |
 
-**说明 / 待确认：**  
+**说明**  
 - 仅 π-tag（tagMode=2）事例，cut 与 Table 1 一致（除图中被 drop 的变量）。  
 - (b) 为对数纵轴。若 $M^2_{\mathrm{miss}}$ 峰位或本底形状与论文有出入，可能与 $\pi^0$ 重建或 missing 四动量定义有关?
 
@@ -314,7 +314,7 @@ SNiPER::Context Terminated Successfully
 |---------------------------|----------------------------------|-------------------------------------|
 | ![rho_M2miss](plotting/output/rho_M2miss.png) | ![rho_cosHel](plotting/output/rho_cosHel.png) | ![rho_absCosMiss](plotting/output/rho_absCosMiss.png) |
 
-**说明 / 待确认：**  
+**说明**  
 - 仅 ρ-tag（tagMode=3，即 $\pi^{+} \pi^0 \bar \nu_ \tau$）事例。  
 - 
 
