@@ -6,7 +6,7 @@
 
 ---
 我的所有程序源代码在 `PROJECT_CODE_DUMP.md` 中，其中 `TauMuGammaAna.cc` 是核心的筛选算法，在算法最后的 `finalize()` 部分有cutflow 流程
-```
+```cpp
 bool TauMuGammaAlg::finalize() {
     // ========================================================================
     //                         CUT FLOW 详细说明
