@@ -1,2 +1,0 @@
-# STCF
-Undergraduate Thesis
